@@ -14,3 +14,13 @@ def list_map(self, f: Callable) -> list:
     """
 
     return list(map(f, self))
+
+
+@curses(list, 'filter')
+def list_filter(self, f: Callable) -> list:
+    """
+    Call filter() as a list method.
+
+    :param f: filter function to apply to list
+
+    :return: a new list with filter function applied
