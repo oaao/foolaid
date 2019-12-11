@@ -1,0 +1,29 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "95431fd341d58db8d7b7ce3a728ee5e6103bb426a79f97ef1c8afa437877fdf9"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.7"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "forbiddenfruit": {
+            "hashes": [
+                "sha256:1188a07cc24a9bd2c529dad06490b80a6fc88cde968af4d7861da81686b2cc8c",
+                "sha256:2e3a19c78dfce650c010aac95ebcb5c19bb29eda33c875b41f31a06d4d7669f9"
+            ],
+            "index": "pypi",
+            "version": "==0.1.3"
+        }
+    },
+    "develop": {}
+}
